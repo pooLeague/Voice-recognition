@@ -21,32 +21,6 @@ char* seconds_to_time(float seconds);
 
 int main() {
 
- /*
- filename = (char*) malloc(sizeof(char) * 1024);
- if (filename == NULL) {
-   printf("Error in malloc\n");
-   exit(1);
- }
-*/
- // get file path
- /*
- char cwd[1024];
- if (getcwd(cwd, sizeof(cwd)) != NULL) {
-
-	strcpy(filename, cwd);
-
-	// get filename from command line
-	if (argc < 2) {
-	  printf("No wave file specified\n");
-	  return;
-	}
-
-	strcat(filename, "/");
-	strcat(filename, argv[1]);
-	printf("%s\n", filename);
-}
-*/
-
  // open .wav file for reading
  printf("Opening  file..\n");
  filename = "k.wav";
