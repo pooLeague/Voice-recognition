@@ -1,2 +1,2 @@
 # Voice-recognition
-voiuce recognition app using spectogram
+viuce recognition app using spectogram
